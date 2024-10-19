@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 0 0 30%; /* 3 posts per row */
+    box-sizing: border-box;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article h2 {
+    margin: 15px 0 10px 0;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+.author-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.description {
+    overflow: hidden;
+    max-height: 3em; /* Show only two lines */
+    line-height: 1.5em; /* Adjust line height */
+}
+
+.read-more {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+/* Ensure the image fits the screen width */
+#post-content img {
+    width: 100%; /* Make the image take up 100% of the container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-width: 100%; /* Prevent the image from overflowing */
+    display: block; /* Remove any bottom margin or padding */
+    margin: 20px 0; /* Optional: Add margin around the image */
+}
+
+/* Post content styling */
+#post-content h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+#post-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.author-info {
+    font-size: 0.9rem;
+    color: #666;
+}
